@@ -1,0 +1,167 @@
+#list {
+	font-family: "Arial", "Lucida Sans Unicode";
+	border: 1px solid #ccc;
+	font-size: 14px;
+	background: #fff;
+	margin: 45px;
+	width: 60%;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+input {
+	font-family: "Arial", "Lucida Sans Unicode";
+}
+
+#list td {
+	border-top: 1px solid #ccc;
+	color: #669;
+	padding: 6px 8px;
+}
+
+#list .photo {
+	border: 0px;
+	width: 70px;
+	height: 70px;
+}
+
+#loading {
+	float: right;
+	display: none;
+	background-color: red;
+	z-index: 99;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	color: white;
+}
+
+#message {
+	color: red;
+}
+
+body {
+	font-family: "Arial", "Tahoma", "Lucida Grande", "Lucida Sans Unicode",
+		Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+p,h1,form,button {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.spacer {
+	clear: both;
+	height: 1px;
+}
+
+/* ----------- My Form ----------- */
+.myform {
+	margin: 30px auto;
+	width: 450px;
+	padding: 14px;
+}
+
+/* ----------- stylized ----------- */
+#stylized {
+	border: solid 2px #b7ddf2;
+	background: #ebf4fb;
+}
+
+#stylized h1 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	text-align: left;
+}
+
+#stylized p {
+	font-size: 11px;
+	color: #666666;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #b7ddf2;
+	padding-bottom: 10px;
+}
+
+#stylized label {
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	width: 140px;
+	float: left;
+}
+
+#stylized .small {
+	color: #666666;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: right;
+	width: 140px;
+}
+
+#stylized input,select,textarea {
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	border: solid 1px #aacfe4;
+	width: 200px;
+	margin: 2px 0 20px 10px;
+}
+
+#stylized button {
+	clear: both;
+	margin-left: 150px;
+	width: 120px;
+	height: 25px;
+	background: #666666;
+	text-align: center;
+	line-height: 31px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.link {
+	font-family: "Arial";
+	color: white;
+	margin: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+fieldset {
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#inner-details {
+	font-family: "Arial";
+	font-size: 16px;
+	font-weight: normal;
+}
+
+button{
+	font-family: "Arial";
+}
+
+select {
+	font-family: "Arial";
+}
+
+fieldset select {
+	font-family: "Arial";
+	width: 80px;
+	height: 25px;
+}
